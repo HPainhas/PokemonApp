@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 export default function Pagination({ goToNextPage, goToPreviousPage }) {
     return (
-        <div>
+        <div class='center'>
             {goToPreviousPage && (
                 <button onClick={goToPreviousPage}>Previous</button>
             )}
